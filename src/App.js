@@ -5,11 +5,12 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src="vrei.jpg"  alt=""/>
         <p>
-          My name is mate and i want to learn react js , thank you for your cooperation
+        Szia Bazsi , ez mukodik ahogy latom :D ! Orulok ,hogy megnezted :D
          
         </p>
+        Ez a szoveg egy rest API-bol szarmazik :D itt a link :"https://api.agify.io/?name=bella"
         <Forex/>
       </header>
      
