@@ -1,25 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
-
+import Forex from "./Api"
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          My name is mate and i want to lear react js , thank you for your cooperation
+          My name is mate and i want to learn react js , thank you for your cooperation
+         
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <Forex/>
       </header>
+     
     </div>
   );
 }
+
+
 
 export default App;
