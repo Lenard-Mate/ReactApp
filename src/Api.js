@@ -31,7 +31,7 @@ class Forex extends React.Component {
      */
     componentDidMount() {
 //https://jsonplaceholder.typicode.com/users
-        fetch('https://api.agify.io/?name=bella')
+        fetch('https://springherocudemo.herokuapp.com/welcome')
             .then(res => res.json())
             .then(json => {
                 this.setState({
@@ -51,7 +51,7 @@ class Forex extends React.Component {
      */
     render() {
 
-        const { isLoaded, items } = this.state;
+        const { isLoaded } = this.state;
         console.log(this.state.items);
    
         if (!isLoaded)
